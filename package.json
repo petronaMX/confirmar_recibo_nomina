@@ -1,0 +1,20 @@
+{
+  "name": "confirmar_recibo_nomina",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "codeceptjs": "codeceptjs run --steps",
+    "report": "allure serve output/allure-results"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Automatiza la confirmación de recibos de nómina para el sistema SF:ERP",
+  "devDependencies": {
+    "@codeceptjs/configure": "^1.0.1",
+    "allure-codeceptjs": "^3.0.6",
+    "codeceptjs": "^3.6.7",
+    "dotenv": "^16.4.5",
+    "playwright": "^1.49.0"
+  }
+}
